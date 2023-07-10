@@ -13,7 +13,7 @@
     height: 50px;
     width: 50px;
     border: none;
-    border-radius: none;
+    border-radius: 0;
 }
 
 .bpw-send-button {
@@ -85,6 +85,7 @@
     height: 80%;
     position: fixed;
     right: 15px;
+    background: #0b2443;
 }
 
 .bpw-header-name {
@@ -153,4 +154,43 @@
     background: #0b2443;
     display: flex;
     padding: 10px;
+}
+
+.bpw-composer {
+    background: hsla(0,0%,100%,.9);
+    outline: none;
+    padding: 0;
+    position: relative;
+    transition: border .3s ease;
+}
+
+.bpw-botinfo-summary h3 {
+    color: #0168fa;
+    margin: 0;
+}
+
+.bpw-botinfo-description {
+    color: rgba(255,255,255,0.5);
+    padding: 10px;
+    margin-bottom: 1em;
+    margin-top: 0.4em;
+}
+
+.bpw-botinfo-container a, .bpw-botinfo-container button {
+    color: rgba(255,255,255,0.5);
+    font-size: .9rem;
+    text-decoration: none;
+}
+
+
+.bpw-botinfo-start-button {
+    background-color: transparent;
+    border: 1px solid rgba(255,255,255,0.5);
+    border-radius: 20px;
+    color: inherit;
+    cursor: pointer;
+    font: inherit;
+    line-height: 24px;
+    margin-top: 25px;
+    padding: 5px 10px;
 }
