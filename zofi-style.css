@@ -10,8 +10,6 @@
 
 .bpw-bot-avatar img, .bpw-bot-avatar svg {
     background: transparent;
-    border: none;
-    border-radius: none;
     height: 50px;
     width: 50px;
 }
@@ -131,4 +129,20 @@
     background-color: #0168fa;
     border-radius: 50%;
     box-shadow: none;
+}
+
+.bpw-header-icon, .bpw-header-icon svg, .bpw-header-icon svg path {
+    fill: rgba(255,255,255,0.8);
+    transition: fill .3s;
+}
+
+.bpw-header-subtitle {
+    color: rgba(255,255,255,0.8);
+    font-size: .75rem;
+    font-weight: 500;
+    margin-top: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    vertical-align: middle;
+    white-space: nowrap;
 }
