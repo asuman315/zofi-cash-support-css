@@ -148,3 +148,9 @@
     vertical-align: middle;
     white-space: nowrap;
 }
+
+.bpw-composer-inner {
+    background: #0b2443;
+    display: flex;
+    padding: 10px;
+}
