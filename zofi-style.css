@@ -1,7 +1,7 @@
 .title {
     font-size: 2.5em;
     text-align: center;
-    color: red;
+    color: #0b2443;
     font-family: 'Roboto', sans-serif;
     font-weight: 800;
     margin-top: 80px;
@@ -37,7 +37,7 @@
 }
 
 .bpw-widget-btn {
-    background-color: #4CAF50;
+    background-color: #0168fa;
     border: none;
     color: white;
     padding: 15px 32px;
@@ -53,7 +53,7 @@
     /* Aligns the button to the right side of the container */
     float: right;
     /* Sets the fill color of the button icon */
-    fill: rgb(34, 9, 146);
+    fill: white;
     /* Changes the cursor to a pointer when hovering over the button */
     cursor: pointer;
     /* Removes the outline around the button when clicked */
@@ -74,7 +74,7 @@
     /* Rounds the corners of the button */
     border-radius: 50%;
     /* Adds a shadow effect to the button */
-    box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.4);
+    box-shadow: 0 2px 6px 0 #0b2443;
     /* Clips any content that overflows the button */
     overflow: hidden;
  
@@ -107,7 +107,7 @@
     /* Sets the background color of the badge */
     background-color: #ff5d5d;
     /* Adds a shadow effect to the badge */
-    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.4);
+    box-shadow: 0 0 4px 0 #0b2443;
 }
 
 
