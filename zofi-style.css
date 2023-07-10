@@ -1,13 +1,32 @@
+.title {
+    font-size: 2.5em;
+    text-align: center;
+    color: red;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+    margin-top: 80px;
+    margin-bottom: 30px;
+}
+
+.bpw-botinfo-container {
+    color: red;
+    height: 80%;
+    margin: 0 auto;
+    max-width: 800px;
+    overflow-y: auto;
+    text-align: center;
+    width: 100%;
+}
 
 .bpw-layout {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 10vh;
+    height: 80vh;
 }
 
-.bpw-header-title {
+.bpw-header-name {
     font-size: 3.5em;
     text-align: center;
     color: red;
@@ -32,7 +51,7 @@
 
 .bpw-floating-button {
     /* Aligns the button to the right side of the container */
-    float: left;
+    float: right;
     /* Sets the fill color of the button icon */
     fill: rgb(34, 9, 146);
     /* Changes the cursor to a pointer when hovering over the button */
@@ -91,6 +110,7 @@
     box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.4);
 }
 
+
 /* This block of CSS code styles a header icon element */
 .bpw-header-icon {
     /* Remove border */
@@ -122,6 +142,7 @@
     /* Set fill transition duration to 0.3 seconds */
     transition: fill 0.3s;
   }
+
    
   /* Apply the same fill color and fill transition to the icon's SVG and path elements */
   .bpw-header-icon svg,
