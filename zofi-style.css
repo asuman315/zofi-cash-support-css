@@ -76,7 +76,7 @@
 .bpw-layout {
     -webkit-box-orient: vertical;
     border-left: 1px solid #ccc;
-    bottom: 30px;
+    bottom: 20px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -84,8 +84,9 @@
     flex-direction: column;
     height: 80%;
     position: fixed;
-    right: 15px;
+    right: 0px;
     background: #0b2443;
+    padding-bottom: 25px;
 }
 
 .bpw-header-name {
